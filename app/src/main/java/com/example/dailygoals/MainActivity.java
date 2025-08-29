@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
                 CheckBox check = new CheckBox(MainActivity.this);
                 check.setText(txtInputGoals.getText().toString());
 
+                txtInputGoals.setText("");
+
                 goalsList.add(check);
                 addGoals(goalsList, proBarGoals);
             }
